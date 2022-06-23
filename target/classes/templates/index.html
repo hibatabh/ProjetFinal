@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/javascript" th:href="@{/webjars/bootstrap/js/bootstrap.bundle.min.js}"/>
+    <link rel="stylesheet" type="text/css" th:href="@{/webjars/bootstrap/css/bootstrap.min.css}"/>
+    <title>Document</title>
+
+    <style>
+        body {
+            height: 100vh;
+        }
+
+        * {
+            margin: 0;
+        }
+
+        .container-fluid {
+            padding-right: 0 !important;
+            padding-left: 0 !important;
+        }
+
+        .bg-img {
+            background-color:#BBE1F2;
+            
+        }
+        .centerss {
+            position: absolute;
+            left: 50%;
+            top: 40%;
+            transform: translate(-50%, -50%);
+            border: 5px solid black;
+            border-radius: 20px;
+            padding: 10px;
+
+
+        }
+
+    </style>
+
+</head>
+<body class="bg-img">
+<div class="container" >
+    <div><h1 class="display-1">Bonjour, nos cher étudiants</h1> </div>
+    <div class="btn-group">
+        <a href="Student" class="btn btn-dark" >Add Students</a>
+        <a href="Teachers" class="btn btn-dark" >Add Teachers</a>
+        <a href="Subjects" class="btn btn-dark" >Add Subjects</a>
+        <a href="AssignSub" class="btn btn-dark" >Assign Subjects</a>
+        <a href="Studentshow" class="btn btn-dark" >Show Students</a>
+        <a href="Teachersshow" class="btn btn-dark" >Show Teachers</a>
+    </div>
+   <img src="https://i.ibb.co/MZd34BN/img1.png" class="img-fluid" alt="img1" border="0">
+</div>
+
+
+</body>
+</html>
